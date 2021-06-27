@@ -1,5 +1,3 @@
-
-
 /*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
 
 
@@ -10,7 +8,6 @@
 @media (min-width: 992px) and (max-width: 1199px) {}
 
 @media (min-width: 768px) and (max-width: 991px) {
-
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 0 20px;
     }
@@ -24,12 +21,12 @@
         font-size: 28px;
         line-height: 30px;
     }
-    .text-bg a {
+    /* .text-bg a {
         margin-right: 5px;
         padding: 10px 23px;
         float: inherit;
         max-width: 156px;
-    }
+    } */
     .Services .Services-box {
         padding: 25px 15px;
     }
@@ -195,4 +192,3 @@
         float: right;
     }
 }
-
