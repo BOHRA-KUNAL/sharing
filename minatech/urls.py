@@ -9,8 +9,14 @@ urlpatterns = [
     path('about/',views.about),
     path('courses/',views.course),
     path('blog/',views.blog),
+    path('blog/<str:id>',views.singleBlog),
     path('register/',views.register),
     path('contact',views.contact),
+    path('courses/<str:id>',views.singleCourse),
+    path('courses/courseContent/<str:id>',views.courseTimeline),
+    path('login',views.login),
+    path('register',views.register),
+    path('logout',views.logout)
     
 ]
 

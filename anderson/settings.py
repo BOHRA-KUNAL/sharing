@@ -32,7 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'minatech.apps.MinatechConfig',
+    'minatech',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
